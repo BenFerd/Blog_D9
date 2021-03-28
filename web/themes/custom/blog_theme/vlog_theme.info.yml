@@ -1,0 +1,20 @@
+name: blog_theme
+type: theme
+base theme: claro
+description: 'For a better Content Editor Experience on top of Claro'
+core_version_requirement: ^8.8 || ^9
+
+# Regions
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+
