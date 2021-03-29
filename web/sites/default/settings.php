@@ -780,14 +780,14 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
    include $app_root . '/' . $site_path . '/settings.local.php';
  }
 $settings['config_sync_directory'] = '../config/sync';
-$databases['default']['default'] = array (
-  'database' => 'blog_food',
-  'username' => 'root',
-  'password' => 'root',
-  'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-  'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
-);
+//$databases['default']['default'] = array (
+//  'database' => 'blog_food',
+//  'username' => 'root',
+//  'password' => 'root',
+//  'prefix' => '',
+//  'host' => '127.0.0.1',
+//  'port' => '3306',
+//  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//  'driver' => 'mysql',
+//  'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+//);

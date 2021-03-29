@@ -1,7 +1,7 @@
 name: blog_theme
 type: theme
-base theme: claro
-description: 'For a better Content Editor Experience on top of Claro'
+base theme: stable9
+description: 'A cool homemade theme for my blog'
 core_version_requirement: ^8.8 || ^9
 
 # Regions
