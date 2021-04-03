@@ -1,0 +1,14 @@
+uuid: 1fdb4e9b-f037-4225-97d9-0af308837542
+name: food
+mail: ben.crommen@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

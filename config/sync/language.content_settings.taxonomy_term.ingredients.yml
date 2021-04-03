@@ -1,0 +1,11 @@
+uuid: 598fedcf-225d-461d-91ad-51ce7d4f3e03
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ingredients
+id: taxonomy_term.ingredients
+target_entity_type_id: taxonomy_term
+target_bundle: ingredients
+default_langcode: site_default
+language_alterable: false

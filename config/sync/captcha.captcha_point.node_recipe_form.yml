@@ -1,0 +1,7 @@
+uuid: b72b7df4-af9a-4adc-a621-a39f76476844
+langcode: fr
+status: false
+dependencies: {  }
+formId: node_recipe_form
+captchaType: default
+label: null

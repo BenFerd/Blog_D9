@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '6d90663ef21e41812d056d597076c539ac9dd709',
+    'reference' => 'ecb078ba2ac6188e09fb76139964a252d11d8cf8',
     'name' => 'drupal-composer/drupal-project',
   ),
   'versions' => 
@@ -299,7 +299,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '6d90663ef21e41812d056d597076c539ac9dd709',
+      'reference' => 'ecb078ba2ac6188e09fb76139964a252d11d8cf8',
     ),
     'drupal/action' => 
     array (
@@ -395,6 +395,15 @@ private static $installed = array (
       array (
         0 => '9.1.5',
       ),
+    ),
+    'drupal/captcha' => 
+    array (
+      'pretty_version' => '1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.1',
     ),
     'drupal/ckeditor' => 
     array (
@@ -850,6 +859,15 @@ private static $installed = array (
         0 => '9.1.5',
       ),
     ),
+    'drupal/honeypot' => 
+    array (
+      'pretty_version' => '2.0.1',
+      'version' => '2.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2.0.1',
+    ),
     'drupal/image' => 
     array (
       'replaced' => 
@@ -945,12 +963,12 @@ private static $installed = array (
     ),
     'drupal/metatag' => 
     array (
-      'pretty_version' => '1.15.0',
-      'version' => '1.15.0.0',
+      'pretty_version' => '1.16.0',
+      'version' => '1.16.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '8.x-1.15',
+      'reference' => '8.x-1.16',
     ),
     'drupal/migrate' => 
     array (
@@ -1060,6 +1078,15 @@ private static $installed = array (
       array (
         0 => '9.1.5',
       ),
+    ),
+    'drupal/recaptcha_v3' => 
+    array (
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.4',
     ),
     'drupal/recipe' => 
     array (
@@ -1300,6 +1327,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '80a23b64f44d54dd571d114c473d9d7e9ed84ca5',
+    ),
+    'google/recaptcha' => 
+    array (
+      'pretty_version' => '1.2.4',
+      'version' => '1.2.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '614f25a9038be4f3f2da7cbfd778dc5b357d2419',
     ),
     'graham-campbell/result-type' => 
     array (

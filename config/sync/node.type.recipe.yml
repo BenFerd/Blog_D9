@@ -1,0 +1,24 @@
+uuid: 7db8b81e-4b3c-4a92-b82f-430eb774d2dc
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - recipe
+  module:
+    - recipe
+third_party_settings:
+  recipe:
+    total_time_label: 'Temps total'
+    total_time_label_display: above
+    yield_label: Portions
+    yield_label_display: above
+_core:
+  default_config_hash: rsN6ea8JR1jm75lJHo0zxaZq-yWPNoazBPomu9REZ9U
+name: Recipe
+type: recipe
+description: 'Partager vos recettes préférées avec vos amis cuisiniers.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

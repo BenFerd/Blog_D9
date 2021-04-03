@@ -1,0 +1,11 @@
+uuid: 5a514ed4-d24b-44b5-8489-8ecdc2ebe44e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ingredient
+id: ingredient.ingredient
+target_entity_type_id: ingredient
+target_bundle: ingredient
+default_langcode: site_default
+language_alterable: false
