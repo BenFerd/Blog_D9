@@ -1,0 +1,22 @@
+uuid: e857df6b-457d-4dcb-9fa1-4eac4314d75e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_barrio
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: custom_barrio_content
+theme: custom_barrio
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: befce7b2-16cb-4acc-adf7-1f2edbf12ce5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blog_theme
+_core:
+  default_config_hash: QTwkfDaGeBUk6aerktJBDXso4fCsqLTQOuWKXE1xMPU
+id: blog_theme_content
+theme: blog_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

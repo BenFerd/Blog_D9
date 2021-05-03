@@ -1,0 +1,22 @@
+uuid: 8733c59b-5686-42e3-b15a-246407b67155
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - custom_barrio
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: custom_barrio_local_tasks
+theme: custom_barrio
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

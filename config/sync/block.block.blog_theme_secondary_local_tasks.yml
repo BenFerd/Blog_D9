@@ -1,0 +1,22 @@
+uuid: 4c3d1bef-ec73-4da2-831e-f6c7c4f2e545
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - blog_theme
+_core:
+  default_config_hash: D_hUB_AW2IvKbVo3lVG-B2KfTsX6xJ-CxfOcRYUnL3E
+id: blog_theme_secondary_local_tasks
+theme: blog_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

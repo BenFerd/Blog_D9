@@ -1,0 +1,29 @@
+uuid: fe118507-e667-4325-b841-2fdc65c38d8a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hp_recipes
+    - node.type.homepage
+    - node.type.recipe
+id: node.homepage.field_hp_recipes
+field_name: field_hp_recipes
+entity_type: node
+bundle: homepage
+label: Recettes
+description: 'Afficher une sélection de recettes'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      recipe: recipe
+    sort:
+      field: revision_timestamp
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 5327fe3e-a355-405c-a946-0bb3bd7f7c82
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - custom_barrio
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: custom_barrio_help
+theme: custom_barrio
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
